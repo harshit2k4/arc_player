@@ -1,7 +1,7 @@
 name: arc_player
-description: "A new Flutter project."
+description: "A clean and modern music player app"
 publish_to: 'none'
-version: 0.1.0+1
+version: 0.1.0
 
 environment:
   sdk: ^3.11.5
@@ -9,6 +9,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  # State Management and Routing
+  get: ^4.6.6
+  
+  # Local Database for Settings
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Audio Playback
+  just_audio: ^0.9.36
+  just_audio_background: ^0.0.1-beta.17
+  audio_session: ^0.1.18
+  
+  # Fetching Local Files and Permissions
+  on_audio_query: ^2.9.0
+  permission_handler: ^11.3.0
 
 dev_dependencies:
   flutter_test:
