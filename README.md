@@ -1,3 +1,3 @@
-# arc_player
+# Arc Player
 
-A new Flutter project.
+A clean and modern music player app written in Flutter
